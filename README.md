@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# Derm Analyzer Web
 
-## Project info
+Derm Analyzer Web is a frontend web application designed to support dermatology image analysis workflows. The project focuses on providing a clean, scalable, and responsive user interface that can be integrated with AI-based backend systems for skin condition analysis.
 
-**URL**: https://lovable.dev/projects/78e91c6b-be37-44fc-be0d-65b84a15e5e9
+## Disclaimer
 
-## How can I edit this code?
+This project is a technical and educational prototype. It does not perform medical diagnosis, provide clinical advice, or replace professional dermatological evaluation. The application must not be used as a medical device.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Skin image upload interface  
+- Image preview and basic validation  
+- Analysis result display layout  
+- Modular and reusable UI components  
+- Responsive design for desktop and mobile devices  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/78e91c6b-be37-44fc-be0d-65b84a15e5e9) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- React  
+- TypeScript  
+- Vite  
+- Tailwind CSS  
+- shadcn/ui  
+- ESLint  
 
-**Use your preferred IDE**
+## Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```text
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Application views
+│   ├── styles/           # Global styles
+│   └── main.tsx          # App entry point
+├── index.html
+├── vite.config.ts
+├── tailwind.config.ts
+└── package.json
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+## Setup Instructions
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js version 18 or higher  
+- npm or bun  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```text
+git clone https://github.com/mdasharaf07/derm-analyzer-web.git
+
+cd derm-analyzer-web
+npm install
+```
+
+
+## Usage
+
+```text
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Intended Use
 
-**Use GitHub Codespaces**
+- Frontend foundation for dermatology-related AI systems  
+- UI/UX demonstration for healthcare-oriented web applications  
+- Integration-ready interface for machine learning inference APIs  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Limitations
 
-## What technologies are used for this project?
+- No backend or AI model integration  
+- No medical analysis or predictions  
+- No user authentication or persistent storage  
+- No regulatory or clinical validation  
 
-This project is built with:
+## Future Enhancements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Backend API integration  
+- Model confidence scoring and explainability visualizations  
+- Image preprocessing and validation  
+- Authentication and user history  
+- Accessibility and performance improvements  
 
-## How can I deploy this project?
+## Maintainer
 
-Simply open [Lovable](https://lovable.dev/projects/78e91c6b-be37-44fc-be0d-65b84a15e5e9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Maintained by the Mohamed Asharaf.
